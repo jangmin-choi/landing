@@ -1,0 +1,36 @@
+.players{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  flex-basis: 100px;
+}
+
+.player{
+  padding:15px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  border-radius: 6px;
+  margin: 10px 10px;
+  flex-basis:100px;
+  flex-grow:1;
+  text-align:center;
+}
+
+.player img{
+  width: 100px;
+  border-radius: 6px;
+  margin: 10px auto;
+  align-items: center;
+}
+
+.player h4{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color:#c23263;
+  margin: 10px 10px;
+}
+
+.player p{
+  margin: 10px 10px;
+  font-size: 15px;
+}
